@@ -21,7 +21,7 @@ def leds_aus():
     for s in spalten:
         s.value(1)
 
-def led_einschalten(reihe, spalten):
+def led_einschalten(reihe, spalte):
     leds_aus()
     if reihe < len(reihen) and spalte < len(spalten):
         reihen[reihe].value(1)
@@ -39,7 +39,7 @@ while True:
     eingabe = sys.stdin.readline().strip().lower()
     woerter = eingabe.split()
 
-    if len(woerter) >= 2 and woerter[0] == "LED:":
+    if len(woerter) >= 2 '''and woerter[0] == "LED:"''':
         buchstabe = woerter[1]
         reihe, spalte = buchstabe_finden(buchstabe)
         
