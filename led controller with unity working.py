@@ -3,6 +3,8 @@ from machine import Pin
 import sys
 import uselect
 
+#NAME THIS FILE main.py ON PICO
+
 identifier = "LED_CONTROLLER"
 isIdentified = False
 
