@@ -27,7 +27,7 @@ def tasten_scannen():
             if not spalten[spalten_index].value():
                 taste = tastenfeld[reihen_index][spalten_index]
                 if taste is not None:
-                    print("LED: ", taste)
+                    print("UNITY: KEYBOARD: ", taste)
                     time.sleep(0.3)
 
 while True:

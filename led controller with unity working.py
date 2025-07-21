@@ -49,9 +49,9 @@ spalten = [Pin(i, Pin.OUT) for i in range(17, 29)]
 
 # Tastenfeld-Zuordnung: [Reihe][Spalte]
 tastenfeld = [
-    ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],    # Reihe 0
-    ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],    # Reihe 1
-    ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', None]    # Reihe 2
+    ['Q', 'W', 'E', 'R', 'T', 'Z', 'U', 'I', 'O'],    # Reihe 0
+    ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', None],   # Reihe 1
+    ['P', 'Y', 'X', 'C', 'V', 'B', 'N', 'M', 'L']     # Reihe 2 (letztes Feld leer)
 ]
 
 def leds_aus():
