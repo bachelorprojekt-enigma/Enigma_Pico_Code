@@ -88,9 +88,6 @@ while True:
     if not isIdentified:
         Identify()
         continue
-    c = read_message()
-    if c != None:
-        handle_command(c)uselect
     
     tasten_scannen()
     time.sleep(3)

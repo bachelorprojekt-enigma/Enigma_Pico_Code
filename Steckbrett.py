@@ -206,9 +206,7 @@ while True: # Endlosschleife des Programms.
     if not isIdentified:
         Identify()
         continue
-    c = read_message()
-    if c != None:
-        handle_command(c)
+    
     # ---    
     aktualisiere_steckbrett_status() # Überprüft den Steckbrett-Status.
     
